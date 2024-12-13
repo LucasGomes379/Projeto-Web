@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voce é o Elvis</title>
+    <link rel="stylesheet" href="Elvis.css">
+</head>
+<body>
+    <h1>Seu Resultado é: Elvis
+    <p>Elvis foi um rockeiro dos anos 50 muito foda</p>
+
+
+    </h1>
+    <h1 id="elvis"></h1>
+   
+
+    <script>
+
+        let Elvis = localStorage.getItem("Elvis")
+
+        document.querySelector('#testar').innerHTML = 'testar: ' + Elvis
+
+    </script>
+    <script src="QuizRock.js"></script>
+</body>
+</html>

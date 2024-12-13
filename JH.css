@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url('IMG/JimiHENDRIXXX.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #ee8105; 
+}
+
+
+h2 {
+    color: #7700ff; 
+}

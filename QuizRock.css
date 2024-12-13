@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-image: url('./IMG/Cópia\ de\ black-background.png');
+}
+
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+
+#Pai {
+    width: 80%;
+   display:flex;
+   justify-content: center ;
+   margin:auto;
+
+    
+
+}
+
+#empurrar{
+    padding: 40px;
+    border: solid #ffffff ;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+#Resul{
+    text-align: center;
+}
+
+
+
+
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    
+}
+
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+hr {
+    border: 1px solid #fff;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    #Pai {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    
+}
+
+
+label {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 10px 0;
+    font-size: 18px;
+}
