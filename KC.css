@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(13, 102, 219);
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -11,10 +11,10 @@ body {
 }
 
 h1 {
-    color: #0011ff; 
+    color: #fcfcfc; 
 }
 
 
 h2 {
-    color: #FF4500; 
+    color: #000000; 
 }
