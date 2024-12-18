@@ -6,10 +6,10 @@ let KurtCobain = 0;
 function testar() {
     console.log("teste");
 
-    // Pega todos os radio buttons selecionados
+   
     let radios = document.querySelectorAll('input[type="radio"]:checked');
     
-    // Loop para contar os votos
+    
     radios.forEach(e => {
         if (e.value == "Elvis") {
             Elvis++;
@@ -22,24 +22,24 @@ function testar() {
         }
     });
 
-    // Exibe o resultado no label
+    
     let resultado = `Elvis = ${Elvis}<br>
                      Jimi Hendrix = ${JimiHendrix}<br> 
                      Ozzy = ${Ozzy}<br>
                      Kurt Cobain = ${KurtCobain}`;
     document.getElementById("resultado").innerHTML = resultado;
 
-    // Salva os votos no localStorage
+    
     localStorage.setItem('Elvis', Elvis);
     localStorage.setItem('Jimi Hendrix', JimiHendrix);
     localStorage.setItem('Ozzy', Ozzy);
     localStorage.setItem('Kurt Cobain', KurtCobain);
 
-    // Encontra o artista com mais votos
+    
     let maior = Math.max(Elvis, JimiHendrix, Ozzy, KurtCobain);
     let pagina = '';
 
-    // Verifica qual o artista com mais votos
+   
     if (Elvis === maior) {
         pagina = 'Elvis';
     } else if (JimiHendrix === maior) {
@@ -50,8 +50,8 @@ function testar() {
         pagina = 'KC';
     }
 
-    // Abre a página após 5 segundos
+    
     setTimeout(() => {
-        window.location.href = pagina + '.html';  // Usando window.location.href ao invés de window.open
+        window.location.href = pagina + '.html';  
     }, 5000);
 }

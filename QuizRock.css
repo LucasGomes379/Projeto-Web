@@ -83,4 +83,14 @@ label {
     align-items: center; 
     margin: 10px 0;
     font-size: 18px;
+    
+}
+
+label {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    margin: 10px 0;
+    font-size: 18px;
+    width: 100%; 
 }

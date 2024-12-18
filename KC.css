@@ -1,10 +1,10 @@
+
 body {
     background-color: rgb(13, 102, 219);
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 20px;
-    background-image: url('IMG/grunge\ seboso.jpg');
+    padding: 5%; 
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -12,9 +12,15 @@ body {
 
 h1 {
     color: #fcfcfc; 
+    font-size: 3em; 
 }
-
 
 h2 {
     color: #000000; 
+    font-size: 2em; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
 }
